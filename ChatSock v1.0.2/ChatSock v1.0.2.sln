@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatSock v1.0.2", "ChatSock v1.0.2.csproj", "{6130C45A-2968-4CF3-9254-1336B1330568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6130C45A-2968-4CF3-9254-1336B1330568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6130C45A-2968-4CF3-9254-1336B1330568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6130C45A-2968-4CF3-9254-1336B1330568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6130C45A-2968-4CF3-9254-1336B1330568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2D394F7-9E1D-4585-B5BD-85311E4285F7}
+	EndGlobalSection
+EndGlobal
