@@ -67,6 +67,7 @@
       <DependentUpon>startup.xaml</DependentUpon>
     </Compile>
     <Compile Include="utils\animationHelper.cs" />
+    <Compile Include="utils\exceptionHandler.cs" />
     <Compile Include="utils\networkHelper.cs" />
     <Page Include="configurationsPage\configurationsPage.xaml">
       <SubType>Designer</SubType>
@@ -134,6 +135,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="art\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="art\undraw_Login_re_4vu2.svg" />
+    <Resource Include="loginPage\undraw_Login_re_4vu2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

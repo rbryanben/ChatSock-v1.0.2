@@ -22,3 +22,4 @@ C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\startup\startup.
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\gridNotification.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\gridNotification.baml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_Content.g.cs

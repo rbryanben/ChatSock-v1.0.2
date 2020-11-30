@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ChatSock_v1._0._2.utils
 {
+    /*
+     * This class constucts animatio objects 
+     */
     class networkHelper
     {
         public static Boolean hasActiveInternetConnection()
@@ -17,8 +20,9 @@ namespace ChatSock_v1._0._2.utils
                 using (client.OpenRead("http://google.com/generate_204"))
                     return true;
             }
-            catch
+            catch (Exception ex)
             {
+                exceptionHandler.handleException(ex, null);
                 return false;
             }
         }

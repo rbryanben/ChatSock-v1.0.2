@@ -29,6 +29,7 @@ namespace ChatSock_v1._0._2.startup
     /// </summary>
     public partial class startup : Page
     {
+   
         //global 
         private MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
 
@@ -39,7 +40,7 @@ namespace ChatSock_v1._0._2.startup
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            
+          
 
             //animate icon
             var anime = animationHelper.getOpacityAnimationObject(0, 1, 0.5);
