@@ -20,12 +20,14 @@ namespace ChatSock_v1._0._2
     /// On initialization the following will be checked
     /// (1) Previous window state and will be set 
     /// (2) Create instances of the pages that will be inserted and reversed
-    /// (3) Show startup animation
-    /// (4) Check if there is a previous logged in user , if not show loggin page if true show config page
+    /// (3) Show startup page
     /// 
     /// Methods of the class include 
     /// (1)  setDisplayingPageAs 
     ///      - Sets the page to display for easy transition of pages
+    /// 
+    /// (2)  setWindowTitle
+    ///      - Sets the window title
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -33,6 +35,7 @@ namespace ChatSock_v1._0._2
         /// Global varibles come here
         public Page loginPage { get; set; }
         public Page configurationsPage { get; set; }
+        public Page startupPage { get; set; }
 
         public MainWindow()
         {
@@ -52,14 +55,11 @@ namespace ChatSock_v1._0._2
             //(2) instance pages
             this.loginPage = new loginPage.loginPage();
             this.configurationsPage = new configurationsPage.configurationsPage();
+            this.startupPage = new startup.startup() ;
+
 
             //(3) show startup animation
-
-            //(4) show login if there is no logged in user
-            if (Properties.Settings.Default.LoggedInUserIdentification == "")
-            {
-                setDisplayingPageAs(this.loginPage);
-            }
+            setDisplayingPageAs(startupPage);
 
         }
 

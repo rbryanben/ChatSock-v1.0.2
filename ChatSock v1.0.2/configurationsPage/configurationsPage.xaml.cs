@@ -16,7 +16,8 @@ using System.Windows.Shapes;
 namespace ChatSock_v1._0._2.configurationsPage
 {
     /// <summary>
-    /// Interaction logic for configurationsPage.xaml
+    /// This page is put into the MainWindow when called
+    /// It allows the user to set their desired Network and Profile Configurations
     /// </summary>
     public partial class configurationsPage : Page
     {

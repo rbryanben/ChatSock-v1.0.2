@@ -16,7 +16,9 @@ using System.Windows.Shapes;
 namespace ChatSock_v1._0._2.loginPage
 {
     /// <summary>
-    /// Interaction logic for loginPage.xaml
+    /// This class allows the user to Login with their creds
+    /// When page is loaded the following occurs
+    /// (1) Sets the tile of the mainWindow to Login
     /// </summary>
     public partial class loginPage : Page
     {

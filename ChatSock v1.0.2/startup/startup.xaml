@@ -1,0 +1,15 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ChatSock_v1._0._2.startup"
+      xmlns:customControls="clr-namespace:ChatSock_v1._0._2.customControls" x:Class="ChatSock_v1._0._2.startup.startup"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1400"
+      Title="startup" Loaded="Page_Loaded">
+
+    <Grid x:Name="body">
+        <Image x:Name="logo"  HorizontalAlignment="Center" Width="80" Height="80" VerticalAlignment="Center" Source="/ChatSock v1.0.2;component/art/icon.png"/>
+   </Grid>
+</Page>
