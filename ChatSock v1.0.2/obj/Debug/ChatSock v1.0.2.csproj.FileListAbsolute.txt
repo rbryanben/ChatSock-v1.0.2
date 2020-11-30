@@ -1,0 +1,19 @@
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\ChatSock v1.0.2.exe.config
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\ChatSock v1.0.2.exe
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\ChatSock v1.0.2.pdb
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csprojAssemblyReference.cache
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\MainWindow.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\App.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_MarkupCompile.cache
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_MarkupCompile.lref
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\MainWindow.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.g.resources
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock_v1._0._2.Properties.Resources.resources
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.GenerateResource.cache
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.CoreCompileInputs.cache
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.exe
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.pdb
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginPage.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginPage.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\configurationsPage\configurationsPage.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\configurationsPage\configurationsPage.baml

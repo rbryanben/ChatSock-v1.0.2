@@ -1,0 +1,14 @@
+﻿<Page x:Class="ChatSock_v1._0._2.loginPage.loginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ChatSock_v1._0._2.loginPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1400"
+      Title="loginPage" Loaded="Page_Loaded" >
+
+    <Grid>
+        <Label Content="Ryan Is a hero" MouseDown="Label_MouseDown"/>
+    </Grid>
+</Page>
