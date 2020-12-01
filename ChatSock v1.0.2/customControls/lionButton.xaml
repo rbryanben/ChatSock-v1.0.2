@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ChatSock_v1._0._2.customControls.lionButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatSock_v1._0._2.customControls"
+             mc:Ignorable="d" 
+             Name="buttonWindow"
+             d:DesignHeight="30" d:DesignWidth="280">
+    
+    <Border CornerRadius="3" MouseDown="Border_MouseDown" Background="{Binding buttonColor , ElementName=buttonWindow }" Width="280" Height="30">
+        <Label Content="Sign in"  Height="30" Width="280" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+    </Border>
+    
+</UserControl>

@@ -63,6 +63,15 @@
     <Compile Include="customControls\gridNotification.xaml.cs">
       <DependentUpon>gridNotification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="customControls\lionButton.xaml.cs">
+      <DependentUpon>lionButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="customControls\lionPasswordBox.xaml.cs">
+      <DependentUpon>lionPasswordBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="customControls\lionTextBox.xaml.cs">
+      <DependentUpon>lionTextBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="startup\startup.xaml.cs">
       <DependentUpon>startup.xaml</DependentUpon>
     </Compile>
@@ -74,6 +83,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="customControls\gridNotification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="customControls\lionButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="customControls\lionPasswordBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="customControls\lionTextBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

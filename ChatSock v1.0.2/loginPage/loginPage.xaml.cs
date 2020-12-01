@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChatSock_v1._0._2.customControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,6 +44,12 @@ namespace ChatSock_v1._0._2.loginPage
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             mainWindow.setWindowTitle(title);    
+        }
+
+        private void signinButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //show notification
+            body.Children.Add(new gridNotification("Firebase has not been setup yet"));
         }
     }
 }
