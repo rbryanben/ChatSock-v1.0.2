@@ -28,4 +28,19 @@ C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\l
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionButton.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionButton.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\FireSharp.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.App.config
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.CopyComplete
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csprojAssemblyReference.cache

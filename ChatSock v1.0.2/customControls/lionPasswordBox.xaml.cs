@@ -43,5 +43,11 @@ namespace ChatSock_v1._0._2.customControls
                 passwordBox.Clear();
             }
         }
+
+
+        public string getPassword()
+        {
+            return passwordBox.Password;
+        }
     }
 }

@@ -4,4 +4,1447 @@ System.Net.WebException: The remote name could not be resolved: 'google.com'
    at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
    at System.Net.WebClient.OpenRead(Uri address)
    at System.Net.WebClient.OpenRead(String address)
-   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 79
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 79
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 79
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 79
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 79
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'chatsock-938ab.firebaseio.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network [2600:1901:0:94b6::]:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 91
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network [2600:1901:0:94b6::]:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20System.Net.WebException: The remote name could not be resolved: 'google.com'
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at ChatSock_v1._0._2.utils.networkHelper.hasActiveInternetConnection() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\utils\networkHelper.cs:line 20FireSharp.Exceptions.FirebaseException: Request responded with status code=BadRequest, response={
+  "error" : "Invalid path: Invalid token in path"
+}
+
+   at FireSharp.FirebaseClient.<>c.<.ctor>b__3_0(HttpStatusCode statusCode, String body)
+   at FireSharp.FirebaseClient.HandleIfErrorResponse(HttpStatusCode statusCode, String content, Action`2 errorHandler)
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 91System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network [2600:1901:0:94b6::]:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at FireSharp.FirebaseClient.Get(String path)
+   at ChatSock_v1._0._2.loginPage.loginPage.login() in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\loginPage\loginPage.xaml.cs:line 91
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network [2600:1901:0:94b6::]:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---

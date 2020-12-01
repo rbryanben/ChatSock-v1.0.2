@@ -22,7 +22,7 @@ namespace ChatSock_v1._0._2.utils
             }
             catch (Exception ex)
             {
-                exceptionHandler.handleException(ex, null);
+                exceptionHandler.handleException(ex, null , false);
                 return false;
             }
         }

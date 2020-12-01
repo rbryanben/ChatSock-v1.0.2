@@ -21,9 +21,6 @@ namespace ChatSock_v1._0._2.customControls
     public partial class lionTextBox : UserControl
     {
 
-        //global 
-        private string defaultString;
-
         public lionTextBox()
         {
             InitializeComponent();
@@ -57,6 +54,12 @@ namespace ChatSock_v1._0._2.customControls
             {
                 textInput.Clear();
             }
+        }
+
+
+        public string getText()
+        {
+            return textInput.Text;
         }
     }
 }
