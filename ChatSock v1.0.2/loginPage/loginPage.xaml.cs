@@ -1,7 +1,8 @@
 ﻿using ChatSock_v1._0._2.classes;
 using ChatSock_v1._0._2.customControls;
 using ChatSock_v1._0._2.utils;
-using FireSharp.Response;
+using Firebase.Database;
+using Firebase.Database.Query;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,6 +51,7 @@ namespace ChatSock_v1._0._2.loginPage
 
         private async void signinButton_MouseDown(object sender, MouseButtonEventArgs e)
         {
+
             //does input meet standard
             if (usernameLionBox.getText() == "password" || usernameLionBox.getText().Length < 6 || passwordText.getPassword() == "password"
                 || passwordText.getPassword().Length < 6)
@@ -60,18 +62,13 @@ namespace ChatSock_v1._0._2.loginPage
             }
             else
             {
-
+              
                 //thread cannot access the usernameTextBox object
                 tempAccountHolder.id = usernameLionBox.getText();
                 tempAccountHolder.password = passwordText.getPassword();
 
-                //show attempting login notification
-                body.Children.Add(new gridNotification("Attempting sign in", Brushes.Gray));
-
-
-                Task<object> loginTask = new Task<object>(login);
-                loginTask.Start();
-                switch (await loginTask)
+                
+                switch (await loginAsync())
                 {
                     case 0:
                         //login failed
@@ -88,49 +85,106 @@ namespace ChatSock_v1._0._2.loginPage
                         body.Children.Add(new gridNotification("Seems like you dont have an active connection", brush));
                         break;
                 }
+                
             }
 
         }
 
 
-        private object login()
+        private async Task<int> loginAsync()
         {
-            /*
-             *   return of 1 means successfull
-             *   return of 0 means unseccessfull sign in
-             *   return of -1 means got exception
-             */
-            //get account
+            //firebase
+            var auth = firebaseConfigurations.SecretKey;
+            var firebaseClient = new FirebaseClient(
+              "<URL>",
+              new FirebaseOptions
+              {
+                  AuthTokenAsyncFactory = () => Task.FromResult(auth)
+              });
+            var firebase = new FirebaseClient(firebaseConfigurations.BasePath);
+
+
             try
             {
-                var res = firebaseConfigurations.client.Get(@"Accounts/" + tempAccountHolder.id);
-                Account account = res.ResultAs<Account>();
+                //username query
+                var accountQuery = await firebase
+                  .Child("Accounts")
+                  .OrderByKey()
+                  .StartAt(tempAccountHolder.id)
+                  .LimitToFirst(1)
+                  .OnceAsync<Account>();
+            
+            //no account exists 
+            if (accountQuery.Count == 0)
+            {
+                return 0;
+            }
 
-                if (account == null)
+            //there is a username
+            foreach (var account in accountQuery)
+            {
+               
+                /*
+                 *   return of 1 means successfull
+                 *   return of 0 means unseccessfull sign in
+                 *   return of -1 means got exception
+                 */
+                //get account
+           
+                if (account.Object.password == tempAccountHolder.password)
                 {
-                    return 0;
+                    return 1;      
                 }
                 else
                 {
-                    if (account.password == tempAccountHolder.password)
-                    {
-                        return 1;
-                    }
-                    else
-                    {
-                        return 0;
-                    }
+                    return 0;
+
                 }
+
             }
-            catch (Exception ex)
+            }
+            catch (Exception)
             {
                 return -1;
             }
 
+            return -1;
+            
         }
 
+        private void forgotPasswordLink_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //go to password recovery
+            mainWindow.setDisplayingPageAs(mainWindow.recoverPage);
+           
+        }
 
+        private void createAccount(object sender, RoutedEventArgs e)
+        {
+            mainWindow.setDisplayingPageAs(mainWindow.usernameEmail);
+        }
 
-       
+        private void termsAndConditionsLabel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //show terms
+            mainWindow.setDisplayingPageAs(new contentPage.contentPage("terms and conditions"));
+        }
+
+        private void securityPage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //show security
+            mainWindow.setDisplayingPageAs(new contentPage.contentPage("Security"));
+        }
+
+        private void privacyPageLabel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //show privacy
+            mainWindow.setDisplayingPageAs(new contentPage.contentPage("Privacy"));        
+        }
+
+        private void contactUsLabel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://mail.google.com/mail/?view=cm&fs=1&to=rbryanben@gmail.com.com&su=GREETINGS&body=Hie..");
+        }
     }
 }

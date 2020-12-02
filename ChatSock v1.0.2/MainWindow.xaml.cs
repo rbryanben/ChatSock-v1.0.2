@@ -36,6 +36,8 @@ namespace ChatSock_v1._0._2
         public Page loginPage { get; set; }
         public Page configurationsPage { get; set; }
         public Page startupPage { get; set; }
+        public Page recoverPage { get; set; }
+        public Page usernameEmail { get; set; }
 
         public MainWindow()
         {
@@ -56,6 +58,8 @@ namespace ChatSock_v1._0._2
             this.loginPage = new loginPage.loginPage();
             this.configurationsPage = new configurationsPage.configurationsPage();
             this.startupPage = new startup.startup() ;
+            this.recoverPage = new recoverPage.recoverPage();
+            this.usernameEmail = new createAccount.createEmailUsername();
 
 
             //(3) show startup animation

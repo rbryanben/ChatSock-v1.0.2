@@ -1,6 +1,4 @@
-﻿using FireSharp;
-using FireSharp.Config;
-using FireSharp.Interfaces;
+﻿using Firebase.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,14 +14,10 @@ namespace ChatSock_v1._0._2.utils
     class firebaseConfigurations
     {
 
-        private static string doNotUseThisForTheWrongReasons = "JBMQoPowyxPjzWtfdq9oKh7NjbQlRlrdgFugu07t";
-        private static string basePath  = "https://chatsock-938ab.firebaseio.com/" ;
-        public static IFirebaseConfig config = new FirebaseConfig
-        {
-            AuthSecret = doNotUseThisForTheWrongReasons,
-            BasePath = basePath
-        };
-        public static IFirebaseClient client = new FirebaseClient(config);
+        public static string SecretKey = "JBMQoPowyxPjzWtfdq9oKh7NjbQlRlrdgFugu07t";
+        public static string BasePath  = "https://chatsock-938ab.firebaseio.com/" ;
+        
+
     }
 
 

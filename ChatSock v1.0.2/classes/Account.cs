@@ -11,5 +11,6 @@ namespace ChatSock_v1._0._2.classes
         public string id { get; set; }
         public string key { get; set; }
         public string password { get; set; }
+        public string email { get; set; }
     }
 }

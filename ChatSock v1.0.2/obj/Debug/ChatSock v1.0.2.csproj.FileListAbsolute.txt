@@ -1,46 +1,46 @@
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\ChatSock v1.0.2.exe.config
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\ChatSock v1.0.2.exe
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\ChatSock v1.0.2.pdb
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\configurationsPage\configurationsPage.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\gridNotification.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionButton.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionPasswordBox.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionTextBox.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginPage.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\MainWindow.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\startup\startup.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\App.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_Content.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_MarkupCompile.cache
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_MarkupCompile.lref
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\configurationsPage\configurationsPage.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\gridNotification.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionButton.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionPasswordBox.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionTextBox.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginPage.baml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\MainWindow.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\startup\startup.baml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.g.resources
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock_v1._0._2.Properties.Resources.resources
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.GenerateResource.cache
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.CoreCompileInputs.cache
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.exe
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.pdb
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginPage.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginPage.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\configurationsPage\configurationsPage.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\configurationsPage\configurationsPage.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\startup\startup.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\startup\startup.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\gridNotification.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\gridNotification.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_Content.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionTextBox.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionTextBox.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionPasswordBox.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionPasswordBox.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionButton.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\lionButton.baml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\FireSharp.dll
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.dll
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Firebase.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\LiteDB.dll
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Newtonsoft.Json.dll
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Extensions.dll
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Primitives.dll
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.xml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Reactive.dll
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Firebase.xml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\LiteDB.xml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Newtonsoft.Json.xml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Extensions.xml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Net.Http.Primitives.xml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.App.config
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.CopyComplete
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Reactive.xml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csprojAssemblyReference.cache
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.CopyComplete
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\recoverPage\recoverPage.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\recoverPage\recoverPage.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\createAccount\createEmailUsername.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\createAccount\createEmailUsername.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\contentPage\contentPage.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\contentPage\contentPage.baml
