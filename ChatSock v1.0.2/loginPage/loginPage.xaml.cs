@@ -139,10 +139,10 @@ namespace ChatSock_v1._0._2.loginPage
                             return 0;
                         }
 
-
+                        var a = 2;
                         foreach (var account in emailQuery)
                         {
-                            if (account.Object.password == tempAccountHolder.password)
+                            if (account.Object.password == tempAccountHolder.password && account.Object.email == tempAccountHolder.id)
                                 return 1;
                             else
                             {
@@ -167,7 +167,7 @@ namespace ChatSock_v1._0._2.loginPage
                  */
                 //get account
            
-                if (account.Object.password == tempAccountHolder.password && account.Object.email == tempAccountHolder.email)
+                if (account.Object.password == tempAccountHolder.password && account.Object.id == tempAccountHolder.id)
                 {
                     return 1;      
                 }
