@@ -1,14 +1,46 @@
-﻿<Page x:Class="ChatSock_v1._0._2.recoverPage.recoverPage"
+﻿<Page
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ChatSock_v1._0._2.recoverPage"
+      xmlns:customControls="clr-namespace:ChatSock_v1._0._2.customControls" x:Class="ChatSock_v1._0._2.recoverPage.recoverPage"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="1400"
-      Title="recoverPage">
+      Title="recoverPage" Background="White">
 
-    <Grid>
-        <Label Content="recover page" />
+    <Grid x:Name="body">
+        <!-- illustration -->
+        <Image Source="/ChatSock v1.0.2;component/art/undraw_Login_re_4vu2.png" Width="400" Height="300" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,-5"/>
+        
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <!--logo -->
+            <Image Width="100" Height="100" Source="/ChatSock v1.0.2;component/art/icon.png" />
+            <Label Content="Recovery" FontSize="16" Margin="0,5,0,0" Foreground="#FF373737" HorizontalContentAlignment="Center"/>
+            <!-- subtext -->
+            <StackPanel Margin="0,-10,0,0">
+                <Label x:Name="subtext00" FontSize="10" Content="dont get locked out"  Foreground="#FF373737" HorizontalContentAlignment="Center"/>
+                <Label x:Name="subtext01" FontSize="10" Margin="0,-13,0,0" Content="enter your recovery code"  Foreground="#FF373737" HorizontalContentAlignment="Center"/>
+
+            </StackPanel>
+            <Border CornerRadius="5" Width="330" Height="200" Background="#FFD4D4D4">
+                <StackPanel>
+                    <customControls:lionTextBox x:Name="emailText" Height="60" header="Email address" text="email adress" VerticalAlignment="Top" Margin="0,15,0,0"/>
+                    <customControls:lionTextBox x:Name="codeText" Height="60" header="Code" text="recovery code" VerticalAlignment="Top" Margin="0,0,0,0"/>
+                    <customControls:lionButton x:Name="recover" MouseDown="recover_MouseDown" buttonText="recover" buttonColor="Gray" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
+            
+            <!-- back box -->
+            <Border CornerRadius="3" BorderBrush="Gray" BorderThickness="0.5" Height="40" Margin="0,20,0,0">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="#FF373737" >
+                    <TextBlock><Run Text="Want to go back? "/><Bold><Hyperlink Click="back"><Run  Text="Back"/></Hyperlink></Bold></TextBlock>
+                </Label>
+            </Border>
+            
+            <!-- ref table -->
+            <customControls:refBox />
+
+        </StackPanel>
     </Grid>
 </Page>

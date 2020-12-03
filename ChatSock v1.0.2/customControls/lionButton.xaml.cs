@@ -47,5 +47,19 @@ namespace ChatSock_v1._0._2.customControls
             DependencyProperty.Register("buttonColor", typeof(Brush), typeof(lionButton), new PropertyMetadata(Brushes.LightGreen));
 
 
+
+
+        public string buttonText
+        {
+            get { return (string)GetValue(buttonTextProperty); }
+            set { SetValue(buttonTextProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for buttonText.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty buttonTextProperty =
+            DependencyProperty.Register("buttonText", typeof(string), typeof(lionButton), new PropertyMetadata("buttonText"));
+
+
+
     }
 }

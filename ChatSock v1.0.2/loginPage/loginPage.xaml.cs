@@ -129,8 +129,8 @@ namespace ChatSock_v1._0._2.loginPage
                         //username query
                         var emailQuery = await firebase
                           .Child("Accounts")
-                          .OrderBy("email")
-                          .StartAt(tempAccountHolder.password)
+                          .OrderByValue()
+                          .EqualTo(tempAccountHolder.password)
                           .OnceAsync<Account>();
 
                         //if there are no emails 
@@ -167,7 +167,7 @@ namespace ChatSock_v1._0._2.loginPage
                  */
                 //get account
            
-                if (account.Object.password == tempAccountHolder.password)
+                if (account.Object.password == tempAccountHolder.password && account.Object.email == tempAccountHolder.email)
                 {
                     return 1;      
                 }
