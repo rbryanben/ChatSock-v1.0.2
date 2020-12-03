@@ -1,14 +1,43 @@
-﻿<Page x:Class="ChatSock_v1._0._2.contentPage.contentPage"
+﻿<Page
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ChatSock_v1._0._2.contentPage"
+      xmlns:customControls="clr-namespace:ChatSock_v1._0._2.customControls" x:Class="ChatSock_v1._0._2.contentPage.contentPage"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="contentPage">
+      d:DesignHeight="800" d:DesignWidth="1400"
+      Title="contentPage" Background="White">
 
-    <Grid>
-        <Label Name="blackLabel" Content="some text comes here" />
+    <Grid x:Name="body">
+        <!-- back button -->
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!--logo -->
+            <Image Width="100" Height="100"  Source="/ChatSock v1.0.2;component/art/icon.png" />
+            <!--header -->
+            <Label Content="Terms and Conditions" FontSize="16" Margin="0,5,0,0" Foreground="#FF373737" HorizontalContentAlignment="Center"/>
+            <!-- subtext -->
+            <StackPanel Margin="0,-10,0,0">
+                <Label Name="subtext00" FontSize="10" Content="here is our document on our"  Foreground="#FF373737" HorizontalContentAlignment="Center"/>
+                <Label Name="subtext01" FontSize="10" Margin="0,-13,0,0" Content="terms and conditions"  Foreground="#FF373737" HorizontalContentAlignment="Center"/>
+            </StackPanel>
+
+            <Border BorderBrush="Gray" Margin="0,20,0,0" BorderThickness="0.5" >
+                <ScrollViewer x:Name="contentBody" Width="772"  Height="431" >
+                    <TextBlock Padding="20,10,0,0" Name="linesBlock" />
+                </ScrollViewer>
+            </Border>
+
+            <Border CornerRadius="3" BorderBrush="Gray" BorderThickness="0.5" Height="40" Width="280" Margin="0,20,0,0">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="#FF373737" >
+                    <TextBlock><Run Text="Want to go back? "/><Bold><Hyperlink Click="back"><Run  Text="Back"/></Hyperlink></Bold></TextBlock>
+                </Label>
+            </Border>
+            <customControls:refBox Height="30" Margin="20" Width="280"/>
+
+        </StackPanel>
+
+        <Image Source="/ChatSock v1.0.2;component/art/undraw_filing_system_b5d2.png" Height="300" Width="300" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
     </Grid>
 </Page>

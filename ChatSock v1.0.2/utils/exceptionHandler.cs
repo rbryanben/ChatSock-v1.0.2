@@ -17,10 +17,12 @@ namespace ChatSock_v1._0._2.utils
         {
             File.AppendAllText("log.txt", e.ToString());
 
+
             if (body != null)
             {
                 var mainWindow = (MainWindow)Application.Current.MainWindow;
                 mainWindow.mainWindowBody.Children.Add(new gridNotification());
+
             }
         }
 
@@ -33,6 +35,12 @@ namespace ChatSock_v1._0._2.utils
             {
                 File.AppendAllText("log.txt", e.ToString());
             }
+        }
+
+
+        public static void logOnly(Exception e)
+        {
+            File.AppendAllText("log.txt", e.ToString());
         }
     }
 }

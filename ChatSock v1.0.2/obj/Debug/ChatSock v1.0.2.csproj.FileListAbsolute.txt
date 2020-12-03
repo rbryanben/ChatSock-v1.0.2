@@ -10,7 +10,6 @@ C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\loginPage\loginP
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\MainWindow.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\startup\startup.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\App.g.cs
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_Content.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_MarkupCompile.cache
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2_MarkupCompile.lref
@@ -44,3 +43,5 @@ C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\createAccount\cr
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\createAccount\createEmailUsername.baml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\contentPage\contentPage.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\contentPage\contentPage.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\refBox.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\refBox.baml

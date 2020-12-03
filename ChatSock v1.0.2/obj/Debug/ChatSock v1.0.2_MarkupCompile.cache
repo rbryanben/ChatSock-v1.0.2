@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\App.xaml
-11-1574286945
-1216766004
-201509815609
+12473642210
+
+21-1625587407
 231020190343
-configurationsPage\configurationsPage.xaml;contentPage\contentPage.xaml;createAccount\createEmailUsername.xaml;customControls\gridNotification.xaml;customControls\lionButton.xaml;customControls\lionPasswordBox.xaml;customControls\lionTextBox.xaml;loginPage\loginPage.xaml;MainWindow.xaml;recoverPage\recoverPage.xaml;startup\startup.xaml;
+configurationsPage\configurationsPage.xaml;contentPage\contentPage.xaml;createAccount\createEmailUsername.xaml;customControls\gridNotification.xaml;customControls\lionButton.xaml;customControls\lionPasswordBox.xaml;customControls\lionTextBox.xaml;customControls\refBox.xaml;loginPage\loginPage.xaml;MainWindow.xaml;recoverPage\recoverPage.xaml;startup\startup.xaml;
 
 False
 

@@ -1,0 +1,41 @@
+﻿Referent
+A security referent is the focus of a security policy or discourse; for example, a referent may 
+be a potential beneficiary (or victim) of a security policy or system.
+
+Security referents may be persons or social groups, objects, institutions, ecosystems, or any other 
+phenomenon vulnerable to unwanted change by the forces of its environment.[2] The referent in question 
+may combine many referents, in the same way that, for example, a nation state is composed of many individual
+citizens.[3]
+
+Context
+The security context is the relationships between a security referent and its environment.[2] 
+From this perspective, security and insecurity depend first on whether the environment is 
+beneficial or hostile to the referent, and also how capable is the referent of responding to
+its/their environment in order to survive and thrive.[3]
+
+Capabilities
+The means by which a referent provides for security (or is provided for) vary widely. 
+They include, for example:
+
+Coercive capabilities, including the capacity to project coercive power into the environment 
+(e.g. aircraft carrier, handgun, firearms);
+Protective systems (e.g. lock, fence, wall, antivirus software, air defence system, armour)
+Warning systems (e.g. alarm, radar)
+Diplomatic and social action intended to prevent insecurity from developing (e.g. conflict 
+prevention and transformation strategies); and
+Policy intended to develop the lasting economic, physical, ecological and other conditions of security
+(e.g. economic reform, ecological protection, progressive demilitarization, militarization).
+Effects
+Any action intended to provide security may have multiple effects. For example, an action may have 
+wide benefit, enhancing security for several or all security referents in the context; alternatively, the 
+action may be effective only temporarily, or benefit one referent at the expense of another, or be entirely ineffective
+or counterproductive.
+
+Contested approaches
+Approaches to security are contested and the subject of debate. For example, in debate about national security
+strategies, some argue that security depends principally on developing protective and coercive capabilities in
+order to protect the security referent in a hostile environment (and potentially to project that power into its
+environment, and dominate it to the point of strategic supremacy).[4][5][6] Others argue that security depends
+principally on building the conditions in which equitable relationships can develop, partly by reducing antagonism 
+between actors, ensuring that fundamental needs can be met, and also that differences of interest can be negotiated 
+effectively.[7][3][8]

@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("art/undraw_login_re_4vu2.svg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/privacy.txt")]
 
 

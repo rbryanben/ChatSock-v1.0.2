@@ -1,0 +1,55 @@
+﻿Privacy aspects
+Right to be let alone
+In 1890 the United States jurists Samuel D. Warren and Louis Brandeis wrote "The Right to Privacy",
+an article in which they argued for the "right to be let alone", using that phrase as a definition of 
+privacy.[1] There is extensive commentary over the meaning of being "let alone", and among other ways, 
+it has been interpreted to mean the right of a person to choose seclusion from the attention of others 
+if they wish to do so, and the right to be immune from scrutiny or being observed in private settings,
+such as one's own home.[1] Although this early vague legal concept did not describe privacy in a way that
+made it easy to design broad legal protections of privacy, it strengthened the notion of privacy rights for
+individuals and began a legacy of discussion on those rights.[1]
+
+Limited access
+Limited access refers to a person's ability to participate in society without having other individuals and
+organizations collect information about them.[2]
+
+Various theorists have imagined privacy as a system for limiting access to one's personal information.[2] 
+Edwin Lawrence Godkin wrote in the late 19th century that "nothing is better worthy of legal protection than 
+private life, or, in other words, the right of every man to keep his affairs to himself, and to decide for himself
+to what extent they shall be the subject of public observation and discussion."[2][3] Adopting an approach similar
+to the one presented by Ruth Gavison[4] Nine years earlier,[5] Sissela Bok said that privacy is "the condition of 
+being protected from unwanted access by others—either physical access, personal information, or attention."[2][6]
+
+Control over information
+Control over one's personal information is the concept that "privacy is the claim of individuals, groups,
+or institutions to determine for themselves when, how, and to what extent information about them is communicated
+to others." Generally, a person who has consensually formed an interpersonal relationship with another person
+is not considered "protected" by privacy rights with respect to the person they are in the relationship with. 
+[7][8] Charles Fried said that "Privacy is not simply an absence of information about us in the minds of others; 
+rather it is the control we have over information about ourselves. Nevertheless, in the era of big data, control
+over information is under pressure.[9]
+
+States of privacy
+Alan Westin defined four states—or experiences—of privacy: solitude, intimacy, anonymity, and reserve. Solitude
+is a physical separation from others.[10] Intimacy is a "close, relaxed, and frank relationship between two or
+more individuals" that results from the seclusion of a pair or small group of individuals.[10] Anonymity is the
+"desire of individuals for times of 'public privacy.'"[10] Lastly, reserve is the "creation of a psychological 
+barrier against unwanted intrusion"; this creation of a psychological barrier requires others to respect an individual's
+need or desire to restrict communication of information concerning himself or herself.[10]
+
+In addition to the psychological barrier of reserve, Kirsty Hughes identified three more kinds of
+privacy barriers: physical, behavioral, and normative. Physical barriers, such as walls and doors, 
+prevent others from accessing and experiencing the individual.[11] (In this sense, "accessing" an individual
+includes accessing personal information about him or her.)[11] Behavioral barriers communicate to others—verbally, 
+through language, or non-verbally, through personal space, body language, or clothing—that an individual does not want 
+them to access or experience him or her.[11] Lastly, normative barriers, such as laws and social norms, restrain others
+from attempting to access or experience an individual.[11]
+
+Secrecy
+Privacy is sometimes defined as an option to have secrecy. Richard Posner said that privacy is the right of people to 
+"conceal information about themselves that others might use to their disadvantage". [12][13]
+
+In various legal contexts, when privacy is described as secrecy, a conclusion if privacy is secrecy then rights 
+to privacy do not apply for any information which is already publicly disclosed.[14] When privacy-as-secrecy is
+discussed, it is usually imagined to be a selective kind of secrecy in which individuals keep some information 
+secret and private while they choose to make other information public and not private.[14]

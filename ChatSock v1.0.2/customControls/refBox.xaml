@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="ChatSock_v1._0._2.customControls.refBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatSock_v1._0._2.customControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="400" Margin="0,20,0,0">
+    
+    <StackPanel Cursor="Hand" Orientation="Horizontal" HorizontalAlignment="Center" >
+        <Label Name="termsAndConditionsLabel"  HorizontalAlignment="Center"  Margin="2,0,2,0" VerticalAlignment="Center"  Foreground="#FF2867D0" Background="{x:Null}" MouseDown="termsAndConditionsLabel_MouseDown" >Terms</Label>
+
+        <Label Name="securityPage" HorizontalAlignment="Center" Margin="2,0,2,0" VerticalAlignment="Center"  Foreground="#FF2867D0" Background="{x:Null}" MouseDown="securityPage_MouseDown" >Security</Label>
+
+
+        <Label Name="privacyPageLabel"  HorizontalAlignment="Center" Margin="2,0,2,0" VerticalAlignment="Center"  Foreground="#FF2867D0" Background="{x:Null}" MouseDown="privacyPageLabel_MouseDown" >Privacy</Label>
+
+        <Label Name="contactUsLabel"  HorizontalAlignment="Center" Margin="2,0,2,0" VerticalAlignment="Center"  Foreground="#FF3D3D3D" Background="{x:Null}" MouseDown="contactUsLabel_MouseDown" >Contact ChatSock</Label>
+    </StackPanel>
+</UserControl>

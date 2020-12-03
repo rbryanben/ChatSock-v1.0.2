@@ -94,6 +94,9 @@
     <Compile Include="customControls\lionTextBox.xaml.cs">
       <DependentUpon>lionTextBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="customControls\refBox.xaml.cs">
+      <DependentUpon>refBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="recoverPage\recoverPage.xaml.cs">
       <DependentUpon>recoverPage.xaml</DependentUpon>
     </Compile>
@@ -129,6 +132,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="customControls\lionTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="customControls\refBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -197,8 +204,30 @@
     <Resource Include="art\icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="art\undraw_Login_re_4vu2.svg" />
+    <Resource Include="art\undraw_filing_system_b5d2.png" />
+    <Resource Include="art\undraw_Login_re_4vu2.png" />
     <Resource Include="loginPage\undraw_Login_re_4vu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="art\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="docs\termsAndConditions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\termsAndConditions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\security.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="docs\privacy.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="docs\security.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\privacy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

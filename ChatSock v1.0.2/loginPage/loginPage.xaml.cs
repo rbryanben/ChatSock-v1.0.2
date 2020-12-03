@@ -40,8 +40,11 @@ namespace ChatSock_v1._0._2.loginPage
 
         public loginPage()
         {
-            InitializeComponent(); 
+            InitializeComponent();
+            
         }
+
+
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
@@ -66,7 +69,7 @@ namespace ChatSock_v1._0._2.loginPage
                 //thread cannot access the usernameTextBox object
                 tempAccountHolder.id = usernameLionBox.getText();
                 tempAccountHolder.password = passwordText.getPassword();
-
+                
                 
                 switch (await loginAsync())
                 {
@@ -86,11 +89,13 @@ namespace ChatSock_v1._0._2.loginPage
                         break;
                 }
                 
+                
             }
 
         }
 
 
+    
         private async Task<int> loginAsync()
         {
             //firebase
@@ -113,12 +118,43 @@ namespace ChatSock_v1._0._2.loginPage
                   .StartAt(tempAccountHolder.id)
                   .LimitToFirst(1)
                   .OnceAsync<Account>();
+
             
             //no account exists 
             if (accountQuery.Count == 0)
             {
-                return 0;
-            }
+                    //email check
+                    try
+                    {
+                        //username query
+                        var emailQuery = await firebase
+                          .Child("Accounts")
+                          .OrderBy("email")
+                          .StartAt(tempAccountHolder.password)
+                          .OnceAsync<Account>();
+
+                        //if there are no emails 
+                        if (emailQuery.Count == 0)
+                        {
+                            return 0;
+                        }
+
+
+                        foreach (var account in emailQuery)
+                        {
+                            if (account.Object.password == tempAccountHolder.password)
+                                return 1;
+                            else
+                            {
+                                return 0;
+                            }
+                        }
+                    }
+                    catch 
+                    {
+                        return -1;
+                    }
+                }
 
             //there is a username
             foreach (var account in accountQuery)
@@ -164,27 +200,5 @@ namespace ChatSock_v1._0._2.loginPage
             mainWindow.setDisplayingPageAs(mainWindow.usernameEmail);
         }
 
-        private void termsAndConditionsLabel_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            //show terms
-            mainWindow.setDisplayingPageAs(new contentPage.contentPage("terms and conditions"));
-        }
-
-        private void securityPage_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            //show security
-            mainWindow.setDisplayingPageAs(new contentPage.contentPage("Security"));
-        }
-
-        private void privacyPageLabel_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            //show privacy
-            mainWindow.setDisplayingPageAs(new contentPage.contentPage("Privacy"));        
-        }
-
-        private void contactUsLabel_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://mail.google.com/mail/?view=cm&fs=1&to=rbryanben@gmail.com.com&su=GREETINGS&body=Hie..");
-        }
     }
 }

@@ -99,5 +99,13 @@ namespace ChatSock_v1._0._2
         {
             this.Title = title;
         }
+
+        /*
+         * Go back
+         */
+        public void frameGoback()
+        {
+            body.GoBack();
+        }
     }
 }
