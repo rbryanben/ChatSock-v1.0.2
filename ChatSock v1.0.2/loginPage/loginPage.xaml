@@ -20,7 +20,7 @@
                         <customControls:lionTextBox x:Name="usernameLionBox" text="username" header="Username or email address" />
                         
                         <!-- password -->
-                        <customControls:lionPasswordBox x:Name="passwordText" header="Password" />
+                        <customControls:lionPasswordBox x:Name="passwordText" header="Password" KeyDown="passwordText_KeyDown" />
 
                         <!-- Sign in button-->
                         <customControls:lionButton x:Name="signinButton" buttonText="Sign in" buttonColor="#FF4FBF4F" Margin="0,10,0,0" MouseDown="signinButton_MouseDown"/>

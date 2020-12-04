@@ -21,6 +21,10 @@ namespace ChatSock_v1._0._2.customControls
     /// </summary>
     public partial class lionButton : UserControl
     {
+
+        //global 
+        public Boolean dontAnimate { get; set; }
+
         public lionButton()
         {
             InitializeComponent();
@@ -28,10 +32,13 @@ namespace ChatSock_v1._0._2.customControls
 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            //click animation
-            var anime = animationHelper.getOpacityAnimationObject(1, 0.7, 0.1);
-            anime.AutoReverse = true;
-            this.BeginAnimation(OpacityProperty, anime);
+            if (!dontAnimate)
+            {
+                //click animation
+                var anime = animationHelper.getOpacityAnimationObject(1, 0.7, 0.1);
+                anime.AutoReverse = true;
+                this.BeginAnimation(OpacityProperty, anime);
+            }
         }
 
 
@@ -53,6 +60,22 @@ namespace ChatSock_v1._0._2.customControls
         {
             get { return (string)GetValue(buttonTextProperty); }
             set { SetValue(buttonTextProperty, value); }
+        }
+
+
+        public void enabled(Boolean value)
+        {
+            if (!value)
+            {
+                var animate = animationHelper.getOpacityAnimationObject(this.Opacity, 0.4, 0.1);
+                this.BeginAnimation(OpacityProperty, animate);
+            }
+
+            else
+            {
+                var animate = animationHelper.getOpacityAnimationObject(this.Opacity, 1, 0.2);
+                this.BeginAnimation(OpacityProperty, animate);
+            }
         }
 
         // Using a DependencyProperty as the backing store for buttonText.  This enables animation, styling, binding, etc...

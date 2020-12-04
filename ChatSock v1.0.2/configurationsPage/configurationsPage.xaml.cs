@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChatSock_v1._0._2.customControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,12 @@ namespace ChatSock_v1._0._2.configurationsPage
         public configurationsPage()
         {
             InitializeComponent();
+
+        }
+
+        public void displayMessage(gridNotification notification)
+        {
+            body.Children.Add(notification);
         }
     }
 }

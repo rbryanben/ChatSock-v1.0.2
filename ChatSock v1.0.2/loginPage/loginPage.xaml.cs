@@ -41,6 +41,8 @@ namespace ChatSock_v1._0._2.loginPage
         public loginPage()
         {
             InitializeComponent();
+
+            signinButton.dontAnimate = true;
             
         }
 
@@ -69,6 +71,9 @@ namespace ChatSock_v1._0._2.loginPage
                 //thread cannot access the usernameTextBox object
                 tempAccountHolder.id = usernameLionBox.getText();
                 tempAccountHolder.password = passwordText.getPassword();
+
+                //reduce opacity 
+                signinButton.enabled(false);
                 
                 
                 switch (await loginAsync())
@@ -77,9 +82,9 @@ namespace ChatSock_v1._0._2.loginPage
                         //login failed
                         body.Children.Add(new gridNotification("Sign in attempt failed"));
                         break;
-                    case 1:
-                        //login successful
-                        body.Children.Add(new gridNotification("Sign in attempt succesful", Brushes.Green));
+                    case 1:          
+                        //go to configurations
+                        mainWindow.setDisplayingPageAs(mainWindow.configurationsPage);
                         break;
                     case -1:
                         //no internet
@@ -88,8 +93,11 @@ namespace ChatSock_v1._0._2.loginPage
                         body.Children.Add(new gridNotification("Seems like you dont have an active connection", brush));
                         break;
                 }
-                
-                
+
+                //reduce opacity 
+                signinButton.enabled(true);
+
+
             }
 
         }
@@ -126,12 +134,14 @@ namespace ChatSock_v1._0._2.loginPage
                     //email check
                     try
                     {
-                        //username query
+                        //email query
                         var emailQuery = await firebase
                           .Child("Accounts")
-                          .OrderByValue()
-                          .EqualTo(tempAccountHolder.password)
+                          .OrderBy("email")
+                          .StartAt(tempAccountHolder.id)
+                          .LimitToFirst(1)
                           .OnceAsync<Account>();
+
 
                         //if there are no emails 
                         if (emailQuery.Count == 0)
@@ -139,7 +149,7 @@ namespace ChatSock_v1._0._2.loginPage
                             return 0;
                         }
 
-                        var a = 2;
+                        var a = tempAccountHolder;
                         foreach (var account in emailQuery)
                         {
                             if (account.Object.password == tempAccountHolder.password && account.Object.email == tempAccountHolder.id)
@@ -150,8 +160,9 @@ namespace ChatSock_v1._0._2.loginPage
                             }
                         }
                     }
-                    catch 
+                    catch (Exception ex) 
                     {
+                        MessageBox.Show(ex.ToString());
                         return -1;
                     }
                 }
@@ -200,5 +211,12 @@ namespace ChatSock_v1._0._2.loginPage
             mainWindow.setDisplayingPageAs(mainWindow.usernameEmail);
         }
 
+        private void passwordText_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                signinButton_MouseDown(sender, null);
+            }
+        }
     }
 }

@@ -112,7 +112,7 @@ namespace ChatSock_v1._0._2.recoverPage
             //email check
             try
             {
-                //username query
+                //email query
                 var emailQuery = await firebase
                   .Child("Accounts")
                   .OrderBy("email")

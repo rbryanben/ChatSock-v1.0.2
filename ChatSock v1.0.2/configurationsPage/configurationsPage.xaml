@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:ChatSock_v1._0._2.configurationsPage"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="1000"
-      Title="configurationsPage">
-
-    <Grid>
+      Title="configurationsPage" Name="configurationsWindow">
+    
+    <Grid Name="body">
         <Label Content="configurations page" />
     </Grid>
 </Page>

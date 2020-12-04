@@ -8,7 +8,7 @@
              Name="buttonWindow"
              d:DesignHeight="30" d:DesignWidth="280" Cursor="Hand">
     
-    <Border CornerRadius="3" MouseDown="Border_MouseDown" Background="{Binding buttonColor , ElementName=buttonWindow }" Width="280" Height="30">
+    <Border Name="backgroundBorder" CornerRadius="3" MouseDown="Border_MouseDown" Background="{Binding buttonColor , ElementName=buttonWindow }" Width="280" Height="30">
         <Label Content="{Binding buttonText , ElementName=buttonWindow}"  Height="30" Width="280" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
     </Border>
     
