@@ -85,6 +85,7 @@ namespace ChatSock_v1._0._2.loginPage
                     case 1:          
                         //go to configurations
                         mainWindow.setDisplayingPageAs(mainWindow.configurationsPage);
+                        
                         break;
                     case -1:
                         //no internet
