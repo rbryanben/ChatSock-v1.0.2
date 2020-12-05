@@ -35,7 +35,6 @@ namespace ChatSock_v1._0._2.loginPage
         //global
         private static string title = "Login";
         private Account tempAccountHolder = new Account();
-
         private MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
 
         public loginPage()
@@ -49,8 +48,68 @@ namespace ChatSock_v1._0._2.loginPage
             //title of main window
             mainWindow.setWindowTitle(title);
 
+            getNotification();
+
+         }
+
+
+        private void removeNotifications()
+        {
+            foreach (object child in body.Children)
+            {
+                if (child.GetType().Equals(typeof(gridNotification)))
+                {
+                    body.Children.Remove((gridNotification)child);
+                }
+            }
+        }
+
+        private async void getNotification()
+        {
+
+            var result = await getImageNotificationURLAsync();
+
             //set notification
-            body.Children.Add(new imageGridNotification("https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/types-of-software.png"));
+            body.Children.Add(new imageGridNotification(result));
+
+        }
+
+
+        //gets page notifications url 
+        private async Task<String> getImageNotificationURLAsync()
+        {
+            //firebase
+            var auth = firebaseConfigurations.SecretKey;
+            var firebaseClient = new FirebaseClient(
+              "<URL>",
+              new FirebaseOptions
+              {
+                  AuthTokenAsyncFactory = () => Task.FromResult(auth)
+              });
+            var firebase = new FirebaseClient(firebaseConfigurations.BasePath);
+
+
+            try
+            {
+                //username query
+                var advertQuery = await firebase
+                  .Child("ImageNotifications")
+                  .OrderByKey()
+                  .StartAt("loginPage")
+                  .LimitToFirst(1)
+                  .OnceAsync<String>();
+
+                foreach (var url in advertQuery)
+                {
+                    return url.Object;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+
+            return null;
         }
 
         private async void signinButton_MouseDown(object sender, MouseButtonEventArgs e)
@@ -84,7 +143,7 @@ namespace ChatSock_v1._0._2.loginPage
                     case 1:          
                         //go to configurations
                         mainWindow.setDisplayingPageAs(mainWindow.configurationsPage);
-                        
+                        removeNotifications();
                         break;
                     case -1:
                         //no internet
@@ -203,12 +262,13 @@ namespace ChatSock_v1._0._2.loginPage
         {
             //go to password recovery
             mainWindow.setDisplayingPageAs(mainWindow.recoverPage);
-           
+            removeNotifications();
         }
 
         private void createAccount(object sender, RoutedEventArgs e)
         {
             mainWindow.setDisplayingPageAs(mainWindow.usernameEmail);
+            removeNotifications();
         }
 
         private void passwordText_KeyDown(object sender, KeyEventArgs e)

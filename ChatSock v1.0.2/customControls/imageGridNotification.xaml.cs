@@ -32,8 +32,15 @@ namespace ChatSock_v1._0._2.customControls
             //parent
             Grid parentGrid = (Grid)this.Parent;
 
-            //set url
-            sourceImage.ImageSource = new BitmapImage(new Uri(@imageSource));
+            try
+            {
+                //set url
+                sourceImage.ImageSource = new BitmapImage(new Uri(@imageSource));
+            }
+            catch (Exception ex)
+            {
+                exceptionHandler.handleException(ex, (Grid)this.Parent);
+            }
 
             //hide self 
             this.Opacity = 0;

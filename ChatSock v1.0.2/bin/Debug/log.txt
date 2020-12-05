@@ -14,4 +14,14 @@ File name: 'C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\priv
    at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
    at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
    at System.IO.File.ReadAllText(String path)
-   at ChatSock_v1._0._2.contentPage.contentPage..ctor(String header, String subtext00, String subtext01, String filename) in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\contentPage\contentPage.xaml.cs:line 40
+   at ChatSock_v1._0._2.contentPage.contentPage..ctor(String header, String subtext00, String subtext01, String filename) in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\contentPage\contentPage.xaml.cs:line 40System.NotSupportedException: The URI prefix is not recognized.
+   at System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+   at System.Net.WebRequest.Create(Uri requestUri)
+   at MS.Internal.WpfWebRequestHelper.CreateRequest(Uri uri)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at ChatSock_v1._0._2.customControls.imageGridNotification..ctor(String imageSource) in C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\customControls\imageGridNotification.xaml.cs:line 38
