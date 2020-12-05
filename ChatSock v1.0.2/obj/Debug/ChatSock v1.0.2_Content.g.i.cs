@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/privacy.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("art/close.png")]
 
 

@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="ChatSock_v1._0._2.customControls.imageGridNotification"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatSock_v1._0._2.customControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="390" d:DesignWidth="280">
+    <!-- image gridNotification -->
+    <Border Width="280" Height="390" HorizontalAlignment="Right"  CornerRadius="5" >
+        <Border.Background>
+            <ImageBrush Stretch="UniformToFill" x:Name="sourceImage"   Changed="ImageBrush_Changed"/>
+        </Border.Background>
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+
+        <!-- content-->
+        <Grid>
+            <Image Name="closeImage" MouseDown="closeImage_MouseDown" Source="/ChatSock v1.0.2;component/art/close.png"  Height="12" Width="12" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,10,10,0"/>
+        </Grid>
+    </Border>
+</UserControl>

@@ -85,6 +85,9 @@
     <Compile Include="customControls\gridNotification.xaml.cs">
       <DependentUpon>gridNotification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="customControls\imageGridNotification.xaml.cs">
+      <DependentUpon>imageGridNotification.xaml</DependentUpon>
+    </Compile>
     <Compile Include="customControls\lionButton.xaml.cs">
       <DependentUpon>lionButton.xaml</DependentUpon>
     </Compile>
@@ -120,6 +123,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="customControls\gridNotification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="customControls\imageGridNotification.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -228,6 +235,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="bin\Debug\privacy.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="art\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

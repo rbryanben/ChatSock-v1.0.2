@@ -41,17 +41,16 @@ namespace ChatSock_v1._0._2.loginPage
         public loginPage()
         {
             InitializeComponent();
-
-            signinButton.dontAnimate = true;
-            
+            signinButton.dontAnimate = true;            
         }
-
-
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             //title of main window
-            mainWindow.setWindowTitle(title);    
+            mainWindow.setWindowTitle(title);
+
+            //set notification
+            body.Children.Add(new imageGridNotification("https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/types-of-software.png"));
         }
 
         private async void signinButton_MouseDown(object sender, MouseButtonEventArgs e)

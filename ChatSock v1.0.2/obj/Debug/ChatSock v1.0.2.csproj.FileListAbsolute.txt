@@ -35,7 +35,6 @@ C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Firebase.xml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\LiteDB.xml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\Newtonsoft.Json.xml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\bin\Debug\System.Reactive.xml
-C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csprojAssemblyReference.cache
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csproj.CopyComplete
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\recoverPage\recoverPage.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\recoverPage\recoverPage.baml
@@ -45,3 +44,6 @@ C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\contentPage\cont
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\contentPage\contentPage.baml
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\refBox.g.cs
 C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\refBox.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\imageGridNotification.g.cs
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\customControls\imageGridNotification.baml
+C:\Users\rben\Desktop\ChatSock-v1.0.2\ChatSock v1.0.2\obj\Debug\ChatSock v1.0.2.csprojAssemblyReference.cache
